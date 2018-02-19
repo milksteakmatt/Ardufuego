@@ -62,9 +62,9 @@ An Arduino sketch that combines FireplaceRF and Smartthings
 ### Authors
 * Matthew Nichols
 
-### Contributors
+//### Contributors
 
-### Acknowledgements
+//### Acknowledgements
 
 ### License
 Apache License, Version 2.0 Apache License Version 2.0, January 2004 http://www.apache.org/licenses/
