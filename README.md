@@ -22,7 +22,7 @@
 This project emulates the protocol for an RC300 Heat & Glo fireplace remote.  Functionality is currently limited to controlling the on / off state of the fireplace, the flame height, and the fan speed.  Convenience functions have been added to provide optimal start up and shut down procedures.
 
 ## Hardware Setup
-![alt text]()
+![alt text](https://images-na.ssl-images-amazon.com/images/I/615s-i-sdSL._SL1001_.jpg)
 
 ## Software Setup
 
