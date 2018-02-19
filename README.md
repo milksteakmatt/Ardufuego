@@ -22,7 +22,16 @@
 This project emulates the protocol for an RC300 Heat & Glo fireplace remote.  Functionality is currently limited to controlling the on / off state of the fireplace, the flame height, and the fan speed.  Convenience functions have been added to provide optimal start up and shut down procedures.
 
 ## Hardware Setup
-![alt text](/images/RF.png?s=200)
+- RF 433 Mhz Transmitter and Receiver
+I used Gowoops purchased via Amazon
+![Gowoops RF TX RX](/images/RF.png?s=200)
+
+- An Arduino
+I used a Keyestudio Mega purchased via Amazon
+![Keyestudio Mega](/images/mega.jpg)
+
+-Breadboard and jumpers
+-5v Power supply
 
 ## Software Setup
 
