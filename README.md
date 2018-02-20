@@ -33,17 +33,17 @@ This project emulates the protocol for an RC300 Heat & Glo fireplace remote.  Fu
 
 ## Software Setup
 The following files are included in this project:
-- Arduino FireplaceRF C library
+- FireplaceRF
   - Library to include in Arduino sketches for controlling a fireplace via RF
 
-- Ardufuego example Arduino sketch
-  - An example sketch that imports and utilizes FireplaceRF
+- Ardufuego.ino
+  - An example Arduino sketch that imports and utilizes FireplaceRF
 
-- RF_Tester Arduino sketch
-  - An example sketch that reads an RF signal and prints the timings to the serial monitor
+- RF_Tester.ino
+  - An example Arduino sketch that reads an RF signal and prints the timings to the serial monitor
 
-- RF_Transmitter Arduino sketch
-  - An example sketch that transmits an RF signal
+- RF_Transmitter.ino
+  - An example Arduino sketch that transmits an RF signal
 
 - [COMING SOON] Smartthings Ardufuego device controller
   - A Smartthings controller for adding the Ardufuego as a smart device
