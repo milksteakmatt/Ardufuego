@@ -36,27 +36,63 @@ I used a Keyestudio Mega purchased via Amazon
 ## Software Setup
 The following files are included in this project:
 - Arduino FireplaceRF C library
-Library to include in Arduino sketches for controlling a fireplace via RF
+  - Library to include in Arduino sketches for controlling a fireplace via RF
 
-- FireplaceRF example Arduino sketch
-An example sketch that imports and utilizes FireplaceRF
+- Ardufuego example Arduino sketch
+  - An example sketch that imports and utilizes FireplaceRF
 
 - RF_Tester Arduino sketch
-An example sketch that reads an RF signal and prints the timings to the serial monitor
+  - An example sketch that reads an RF signal and prints the timings to the serial monitor
 
 - RF_Transmitter Arduino sketch
-An example sketch that transmits an RF signal
+  - An example sketch that transmits an RF signal
 
 - [COMING SOON] Smartthings Ardufuego device controller
-A Smartthings controller for adding the Ardufuego as a smart device
+  - A Smartthings controller for adding the Ardufuego as a smart device
 
 - [COMING SOON] Smartthings Ardufuego device manager
-A Smartthings device manager for automating an Ardufuego controlled fireplace
+  - A Smartthings device manager for automating an Ardufuego controlled fireplace
 
 - [COMING SOON] Smartthings Arduino sketch
-An Arduino sketch that combines FireplaceRF and Smartthings
+  - An Arduino sketch that combines FireplaceRF and Smartthings
+
+## Getting Started
+1. Connect ground pin of the RF TX board to Arduino ground
+2. Connect VCC pin of the RF TX board to Arduino 5V
+3. Connect data pin of the RF TX board to Arduino TX pin (3 in test sketch)
+4. Import the FireplaceRF library into Arduino sketch editor
+5. Open the Ardufuego test sketch in the Arduino sketch editor
+6. Load the sketch onto an Arduino
 
 ## FireplaceRF API
+```
+FireplaceRF fireplace(x);
+```
+Creates a FireplaceRF to transmit on pin x where x is an int that cooresponds to an Arduino interrupt pin.
+```
+fireplace.on();
+```
+Turns the fireplace on.
+```
+fireplace.off();
+```
+Turns the fireplace off.
+```
+fireplace.setFan(x);
+```
+Sets the fan speed to x where x is an int from 0 to 3
+```
+fireplace.setFlame(x);
+```
+Sets the flame height to x where x is an int from 1 to 5
+```
+fireplace.start();
+```
+Turns the fireplace on, sets the flame height to 1, and turns the fan off.
+```
+fireplace.stop();
+```
+Turns the fireplace off, and turns the fan to speed 3.
 
 ## Credits
 ### Authors
