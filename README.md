@@ -24,11 +24,11 @@ This project emulates the protocol for an RC300 Heat & Glo fireplace remote.  Fu
 ## Hardware Setup
 - RF 433 Mhz Transmitter and Receiver
 I used Gowoops purchased via Amazon
-![Gowoops RF TX RX](/images/RF.png?s=200)
+<img src="/images/RF.png" width="500">
 
 - An Arduino
 I used a Keyestudio Mega purchased via Amazon
-![Keyestudio Mega](/images/mega.jpg)
+<img src="/images/mega.jpg" width="500">
 
 - Breadboard and jumpers
 - 5v Power supply
