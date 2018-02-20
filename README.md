@@ -38,7 +38,7 @@ The following files are included in this project:
 - Arduino FireplaceRF C library
 Library to include in Arduino sketches for controlling a fireplace via RF
 
-- FireplaceRF example Arduino sketch
+- Ardufuego example Arduino sketch
 An example sketch that imports and utilizes FireplaceRF
 
 - RF_Tester Arduino sketch
