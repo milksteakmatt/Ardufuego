@@ -10,7 +10,7 @@
                                           |___/       
 ```
 # Ardufuego
-##### An Arduino RF controller for Heat N Glo fireplace remotes
+##### An Arduino RF controller that emulates Heat N Glo fireplace remotes
 ###### *Broken links subject to "you'll have that."*
 
 ## Purpose
