@@ -66,6 +66,10 @@ The following files are included in this project:
 
 ## FireplaceRF API
 ```
+FireplaceRF fireplace(x);
+```
+Creates a FireplaceRF to transmit on pin x where x is an int that cooresponds to an Arduino interrupt pin.
+```
 fireplace.on();
 ```
 Turns the fireplace on.
