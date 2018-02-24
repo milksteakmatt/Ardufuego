@@ -45,6 +45,10 @@ The following files are included in this project:
 - RF_Transmitter.ino
   - An example Arduino sketch that transmits an RF signal
 
+- UPnP.groovy
+  - Smartthings UPnP manager
+  - Used to discover Ardufuego device via SSDP
+
 - [COMING SOON] Smartthings Ardufuego device controller
   - A Smartthings controller for adding the Ardufuego as a smart device
 
