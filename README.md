@@ -32,7 +32,7 @@ This project emulates the protocol for an RC300 Heat & Glo fireplace remote.  Fu
 - 5v Power supply
 
 ## Software Setup
-The following files are included in this project:
+The following files are significant to this project:
 - FireplaceRF
   - Library to include in Arduino sketches for controlling a fireplace via RF
 
@@ -46,7 +46,7 @@ The following files are included in this project:
   - An example Arduino sketch that transmits an RF signal
 
 - [UPnP.groovy](../../../STUPNP)
-  - Smartthings UPnP manager
+  - Smartthings UPnP manager (external repo)
   - Used to discover Ardufuego device via SSDP
 
 - [COMING SOON] Smartthings Ardufuego device controller
